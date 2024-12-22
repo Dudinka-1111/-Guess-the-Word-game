@@ -43,7 +43,7 @@ def word_game():
         # Начинаем игру
         print(f"Значение слова - {translated_definition}")
         user = input("Что это за слово? ")
-        if user == word:
+        if user == translated_word:
             print("Все верно!")
         else:
             print(f"Ответ неверный, было загадано это слово - {translated_word}")
